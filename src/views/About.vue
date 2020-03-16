@@ -9,8 +9,15 @@
 </template>
 
 <script>
+
 export default {
-  
+  mounted () {
+  },
+  methods: {
+    get() {
+      mainService.get('')
+    }
+  }
 }
 </script>
 
